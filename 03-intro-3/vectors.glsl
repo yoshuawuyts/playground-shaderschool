@@ -1,8 +1,10 @@
 highp vec2 func(highp vec2 a, highp vec2 b) {
 
-  //TODO: Implement the exercise here
+  a = normalize(a);
+  b = normalize(b);
 
-  return vec2(1, 0);
+  //return a;
+  return normalize(a + b / 2.0);
 }
 
 //Do not change this line
